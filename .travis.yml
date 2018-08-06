@@ -15,13 +15,13 @@ env:
   global:
     - image=flaconi/python
   matrix:
+    - TAG=latest
+    - TAG=3
     - TAG=3.7
     - TAG=3.6
     - TAG=3.5
-    - TAG=2.7
     - TAG=2
-    - TAG=3
-    - TAG=latest
+    - TAG=2.7
 
 ###
 ### Install requirements
